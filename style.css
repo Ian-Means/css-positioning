@@ -1,0 +1,40 @@
+nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    box-shadow: 8px 8px lightgray;
+    z-index: 2;
+}
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    right: 8px;
+}
+main {
+    position: relative;
+    height: 800px;
+    top: 100px;
+    background-color: grey;
+    z-index: 1;
+}
+.whiteBox {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    background-color: white;
+    margin: 20px;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: white;
+    border-top: 2px solid black;
+    text-align: center;
+}
